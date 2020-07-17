@@ -1,0 +1,63 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+*{
+    box-sizing: 1px solid black;
+}
+
+#container{
+    position: fixed;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+#top-bar{
+    position: relative;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+#main-window{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#explorer{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    border: 1px solid green;
+    overflow-y: auto;
+    
+}
+
+#terminal {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 20%;
+    width: 100%;
+}
+
+#editor-terminal-window{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#editor{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
